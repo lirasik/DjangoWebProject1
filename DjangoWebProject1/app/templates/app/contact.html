@@ -1,0 +1,20 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    Mogo<br />
+    Бумажная ул., Дом: 188<br />
+    <abbr title="телефон">Тел:</abbr>
+    +7 (992)-382-78-35
+</address>
+
+<address>
+    <strong>Техническая поддержка:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Отддел маркетинка:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+{% endblock %}

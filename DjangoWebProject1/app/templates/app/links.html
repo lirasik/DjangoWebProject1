@@ -1,0 +1,17 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+
+
+
+<h2>{{ title }}.</h2>
+
+
+<address>
+    <strong>Siiimple:</strong>  <a href="https://siiimple.com/" target="_blank"><img src="{% static 'app/content/siiimple-logo.png' %}" alt="siiimple-logo" width="130" height="100" /></a><br />
+    <strong>Pinterest:</strong>  <a href="https://ru.pinterest.com/" target="_blank"><img src="{% static 'app/content/pint-logo.png' %}" alt="pint-logo" width="130" height="100" /></a><br />
+    <strong>Dribbble:</strong>  <a href="https://dribbble.com/" target="_blank"><img src="{% static 'app/content/dribbble-logo.jpg' %}" alt="dribbble-logo" width="130" height="100" /></a>
+</address>
+
+{% endblock %}
